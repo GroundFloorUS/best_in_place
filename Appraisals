@@ -25,6 +25,10 @@ appraise "rails-5.1" do
   gem "rails", github: "rails/rails", branch: '5-1-stable'
 end
 
+appraise "rails-6.0" do
+  gem "rails", github: "rails/rails", branch: '6-0-stable'
+end
+
 appraise "rails-6.1" do
   gem "rails", github: "rails/rails", branch: '6-1-stable'
 end
